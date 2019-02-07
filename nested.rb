@@ -81,7 +81,10 @@ def adding_matz
           :languages => ["C"]
         }
      }
-
+    temp = {}
+    temp[:yukihiro_matsumoto] = {known_for: "Ruby", languages: ["LISP", "C"]}
+    temp.merge!(programmer_hash)
+    temp
     
 end
 
